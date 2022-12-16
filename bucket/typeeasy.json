@@ -1,0 +1,15 @@
+{
+    "version": "1.0.0",
+    "description": "金山打字通 2013 版",
+    "homepage": "https://github.com/TR-Yu/tryu-scoop-bucket",
+    "url": "https://www.kzwr.com/kzwrfs?fid=b85045153664ch119u.7z#/dl.7z",
+    "hash": "27037178255c6a86fd647a4ecf7d0186313173275d4de9ea95c3d258682102c5",
+    "bin": "TypeEasyPortable.exe",
+    "persist" : ["Data"],
+    "shortcuts": [
+        [ 
+            "TypeEasyPortable.exe",     
+            "金山打字通2013"
+        ]
+    ]
+}
