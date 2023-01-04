@@ -2,8 +2,8 @@
     "version": "1.6.0.1",
     "description": "天若OCR文字识别付费版",
     "homepage": "https://ocr.tianruo.net",
-    "url": "https://www.kzwr.com/kzwrfs?fid=b8b6d4091c84md9tfo.zip#/dl.7z",
-    "hash": "34027c3b778f55d113370c606d741077f513d5d61da08a1ccbc94859be81ab94",
+    "url": "https://www.kzwr.com/kzwrfs?fid=38d5af29b1c8nqf2p3.zip",
+    "hash": "aa359707498c4b5a38f678e1d1f9737b434ab7f18ab9f2c95f104ffda2f21881",
     "bin": "TianruoOCR64.exe",
     "shortcuts": [
         [ 
