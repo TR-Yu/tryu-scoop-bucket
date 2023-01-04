@@ -5,7 +5,6 @@
     "url": "https://www.kzwr.com/kzwrfs?fid=b8b6d4091c84md9tfo.zip#/dl.7z",
     "hash": "aa359707498c4b5a38f678e1d1f9737b434ab7f18ab9f2c95f104ffda2f21881",
     "bin": "TianruoOCR64.exe",
-    "persist" : ["Data"],
     "shortcuts": [
         [ 
             "TianruoOCR64.exe",
