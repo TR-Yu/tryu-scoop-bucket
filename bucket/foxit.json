@@ -9,7 +9,7 @@
           "if (!(is_admin)) { error \"$app requires admin rights to $cmd\"; break }",
           "$process = Start-Process msiexec -ArgumentList @('/i', \"`\"$dir\\setup.msi_`\"\", '/qn') -Wait -Verb RunAs | Out-Null",
           "Remove-Item \"$dir\\setup.msi_\"",
-          "Start-Sleep -Milliseconds 1000",
+          "Start-Sleep -Milliseconds 2000",
           "Move-Item -Path \"C:\\Program Files (x86)\\Foxit Software\\Foxit PhantomPDF\" -Destination \"$dir\" ",
           "new-Item -Path \"C:\\Program Files (x86)\\Foxit Software\\Foxit PhantomPDF\" -ItemType symboliclink -value \"$dir\\Foxit PhantomPDF\" ",
           "Remove-Item -Path \"C:\\Users\\Public\\Desktop\\福昕风腾PDF套件金山版.lnk\" -Force"
