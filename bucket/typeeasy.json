@@ -10,10 +10,10 @@
     "hash": "6a0b6b4c4c9fcf980d0755168e72b87e6c61f06e5996dd1916485afa5497a427",
     "post_install": [
          "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse",
-         "Remove-Item \"$dir\\`$LOCALAPPDATA\" -Recurse"
-         "Remove-Item \"$dir\\`$APPDATA\" -Recurse"
-         "Remove-Item \"$dir\\config.xml\""
-         "Remove-Item \"$dir\\TypeEasy.exe\""
+         "Remove-Item \"$dir\\`$LOCALAPPDATA\" -Recurse",
+         "Remove-Item \"$dir\\`$APPDATA\" -Recurse",
+         "Remove-Item \"$dir\\config.xml\"",
+         "Remove-Item \"$dir\\TypeEasy.exe\"",
          "Move-Item -Path \"$dir\\11.9" -Destination \"$dir\""
     ],
     "shortcuts": [
