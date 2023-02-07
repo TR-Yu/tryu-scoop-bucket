@@ -13,12 +13,11 @@
          "Remove-Item \"$dir\\`$LOCALAPPDATA\" -Recurse",
          "Remove-Item \"$dir\\`$APPDATA\" -Recurse",
          "Remove-Item \"$dir\\config.xml\"",
-         "Remove-Item \"$dir\\TypeEasy.exe\"",
-         "Move-Item -Path \"$dir\\11.9" -Destination \"$dir\""
+         "Remove-Item \"$dir\\TypeEasy.exe\""
     ],
     "shortcuts": [
         [ 
-            "TypeEasy.exe",     
+            "11.9\\TypeEasy.exe",     
             "TypeEasy 2016"
         ]
     ]
