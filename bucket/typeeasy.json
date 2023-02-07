@@ -1,15 +1,25 @@
 {
-    "version": "1.0.0",
-    "description": "金山打字通 2013 版",
-    "homepage": "https://github.com/TR-Yu/tryu-scoop-bucket",
-    "url": "https://www.kzwr.com/kzwrfs?fid=b85045153664ch119u.7z#/dl.7z",
-    "hash": "27037178255c6a86fd647a4ecf7d0186313173275d4de9ea95c3d258682102c5",
-    "bin": "TypeEasyPortable.exe",
-    "persist" : ["Data"],
+    "version": "22059.12012.0",
+    "description": "金山打字通 2016 版",
+    "homepage": "https://www.51dzt.com/rubik/?_position=51dzt",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://www.wps.cn"
+    },
+    "url": "https://package.op.wpscdn.cn/wps/download/typeeasy.22059.12012.0.exe#/dl.7z",
+    "hash": "6a0b6b4c4c9fcf980d0755168e72b87e6c61f06e5996dd1916485afa5497a427",
+    "post_install": [
+         "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse",
+         "Remove-Item \"$dir\\`$LOCALAPPDATA\" -Recurse"
+         "Remove-Item \"$dir\\`$APPDATA\" -Recurse"
+         "Remove-Item \"$dir\\config.xml\""
+         "Remove-Item \"$dir\\TypeEasy.exe\""
+         "Move-Item -Path \"$dir\\11.9" -Destination \"$dir\"
+    ],
     "shortcuts": [
         [ 
-            "TypeEasyPortable.exe",     
-            "金山打字通2013"
+            "TypeEasy.exe",     
+            "TypeEasy 2016"
         ]
     ]
 }
