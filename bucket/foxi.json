@@ -7,7 +7,7 @@
     "bin": "FoxitPhantomPDF/FoxitPhantomPDF.exe",
     "shortcuts": [
         [
-            "FoxitPhantomPDF.exe",
+            "FoxitPhantomPDF/FoxitPhantomPDF.exe",
             "FoxitPhantomPDF"
         ]
     ]
