@@ -9,7 +9,7 @@
     "architecture": {
         "64bit": {
             "url": "https://download.redisinsight.redis.com/latest/RedisInsight-v2-win-installer.exe#/dl.7z",
-            "hash": "02f3c0b4f703e8b7e2ea519b0fbfeb8c87c1ec474f73509bfb12e62b177f2bb3",
+            "hash": "aa359707498c4b5a38f678e1d1f9737b434ab7f18ab9f2c95f104ffda2f21881",
             "installer": {
                 "script": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
             }
